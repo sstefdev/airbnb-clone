@@ -1,5 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
-import "./index.css";
+import Listings from "./sections/Listings/Listings";
 
-render(<div>Hello world</div>, document.getElementById("root"));
+render(
+  <Listings title="Blue House Listings" />,
+  document.getElementById("root")
+);
